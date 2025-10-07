@@ -1,0 +1,4 @@
+[build]
+  environment = { NODE_VERSION = "18" }
+  command = "npm install --include=optional && npm run build && ls -R node_modules"
+  publish = "build"
